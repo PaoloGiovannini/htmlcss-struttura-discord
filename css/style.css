@@ -29,7 +29,6 @@ header{
     display:flex;
     height: 80%;
     background-color: orange;
-    
     align-items: center;
 }
 
@@ -64,7 +63,7 @@ header{
     height: 400px;
 }
 
-.maincont, .maincont2, maincont3{
+.maincont, .maincont2, .maincont3, .ftop, .hbottom{
     display: flex;
     justify-content:center ;
     align-items: center;
@@ -101,13 +100,36 @@ header{
 
 .maincont3{
     height: 700px;
-    display: flex;
-    justify-content:center ;
-    align-items: center;
+
 }
 
 .bottom-main{
     background-color: lightgreen;
     height: 600px;
     width: 500px;
+}
+
+.boxfooter{
+    background-color: black;
+    height: 800px;
+
+}
+
+.ftop{
+    height: 500px;
+}
+
+.col1{
+    height: 400px;
+    width: 200px;
+    background-color: salmon;
+    border: 2px dashed black;
+
+}
+
+.col2{
+    height: 400px;
+    width: 150px;
+    background-color: aquamarine;
+    border: 2px dashed white;
 }
