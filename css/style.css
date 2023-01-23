@@ -50,7 +50,7 @@ header{
     height: 300px;
     background-color: blue;
     display: flex;
-    justify-content: 50%;
+    justify-content: center;
     align-items : center;  
 }
 
@@ -58,4 +58,37 @@ header{
     height: 70%;
     background-color: green;
     width: 50%;
+}
+
+.maincont, .maincont2{
+    height: 400px;
+    background-color: aqua;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+}
+
+.imgmain{
+    width: 400px;
+    height: 200px;
+    background-color: brown;
+}
+
+.didascmain{
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+}
+
+
+.maincont2{
+    background-color: burlywood;
+}
+
+.imgmain.seconda{
+    order: 2;
+}
+
+.didascmain.seconda{
+    order: 1;
 }
