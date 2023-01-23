@@ -62,10 +62,21 @@ header{
 
 .maincont, .maincont2{
     height: 400px;
-    background-color: aqua;
+}
+
+.maincont, .maincont2, maincont3{
     display: flex;
     justify-content:center ;
     align-items: center;
+}
+
+
+.maincont{
+    background-color: aqua;
+}
+
+.maincont2,.maincont3 {
+    background-color: burlywood;
 }
 
 .imgmain{
@@ -80,15 +91,23 @@ header{
     background-color: blueviolet;
 }
 
-
-.maincont2{
-    background-color: burlywood;
-}
-
 .imgmain.seconda{
     order: 2;
 }
 
 .didascmain.seconda{
     order: 1;
+}
+
+.maincont3{
+    height: 700px;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+}
+
+.bottom-main{
+    background-color: lightgreen;
+    height: 600px;
+    width: 500px;
 }
