@@ -20,7 +20,6 @@ header{
 .container{
     max-width: 1170px;
     margin: auto;
-    border: 3px dashed black;
 }
 
 
@@ -110,8 +109,8 @@ header{
 }
 
 .boxfooter{
-    background-color: black;
-    height: 800px;
+    background-color: firebrick;
+    height: 600px;
 
 }
 
@@ -132,4 +131,20 @@ header{
     width: 150px;
     background-color: aquamarine;
     border: 2px dashed white;
+}
+
+.fbottom{
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    background-color: yellow;
+    align-items: center;
+}
+
+span{
+    background-color: pink;
+}
+
+.dshd {
+    border: 3px dashed black;
 }
